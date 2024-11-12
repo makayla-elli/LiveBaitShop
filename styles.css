@@ -36,7 +36,7 @@ a:visited {
 
 /* navigation styling */
 
-nav {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ nav {
     background-color: #9fbfdf;
 }
 
-a {
+li a {
     float: left;
     display: block;
     color: white;
@@ -60,18 +60,84 @@ a:hover:not(.active) {
 .active {
     background-color: #79a6d2;
 }
-    /* index styling */
 
-    #offer {
-        width: 48%;
-        float: left;
-        border: solid 2px;
+/* index styling */
+
+#offer {
+    width: 48%;
+    float: left;
+    border: solid 2px;
+}
+
+#contact {
+    width: 48%;
+    float: right;
+    border: solid 2px;
+}
+
+/* bait styling */
+
+/* respooling styling */
+.respool {
+    overflow: hidden;
+    border: 3px solid #336699;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #ecf2f9;
+}
+
+#spool {
+    border-radius: 3%;
+    float: right;
+}
+
+ul {
+    list-style-type:none;
+}
+
+/* Connect Styling */
+.facebook {
+    border: solid 2px #9fbfdf;
+    border-radius: 10%;
+    background-color: #9fbfdf;
+    padding:5px;
+    box-shadow: 3px 3px#79a6d2;
+}
+
+.connect{
+    border: 3px solid #336699;
+    float: left;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 45%;
+}
+
+.fishing {
+    width: 45%;
+    float: right;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.page {
+    display:flex;
+    align-items: center;
+}
+/* Media Queries*/
+
+@media screen and (max-width:800px){
+    .logo {
+        display: none;
     }
 
-    #contact {
-        width: 48%;
-        float: right;
-        border: solid 2px;
+    .fishing {
+        display: none;
     }
 
-    /* bait styling*/
+}
