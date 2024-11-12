@@ -34,25 +34,44 @@ a:visited {
     background-color: #9fbfdf;
 }
 
-.nav {
-    border-radius: 10px;
-    padding: 10px;
-    font-size: large;
-    text-align: center;
+/* navigation styling */
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9fbfdf;
 }
 
-/* index styling */
-
-#offer {
-    width: 48%;
+a {
     float: left;
-    border: solid 2px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#contact {
-    width: 48%;
-    float: right;
-    border: solid 2px;
+a:hover:not(.active) {
+    background-color: #b3cce6;
 }
 
-/* bait styling*/
+.active {
+    background-color: #79a6d2;
+}
+    /* index styling */
+
+    #offer {
+        width: 48%;
+        float: left;
+        border: solid 2px;
+    }
+
+    #contact {
+        width: 48%;
+        float: right;
+        border: solid 2px;
+    }
+
+    /* bait styling*/
