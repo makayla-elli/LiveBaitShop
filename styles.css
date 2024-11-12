@@ -34,6 +34,13 @@ a:visited {
     background-color: #9fbfdf;
 }
 
+footer {
+    clear: both;
+    border-top: 2px solid black;
+    margin-top: 30px;
+    text-align: center;
+}
+
 /* navigation styling */
 
 nav ul {
@@ -67,12 +74,16 @@ a:hover:not(.active) {
     width: 48%;
     float: left;
     border: solid 2px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 #contact {
     width: 48%;
     float: right;
     border: solid 2px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 /* bait styling */
