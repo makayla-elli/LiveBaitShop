@@ -1,0 +1,58 @@
+/* 
+ Name: MaKayla Elliott
+        Date: 11-2-2024
+        Assignment: Exam 3 - Live Bait Website
+        File Name: styles.css 
+*/
+
+html {
+    background-color: antiquewhite;
+}
+
+a:link {
+    color: slategray;
+}
+
+a:visited {
+    color: black;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    bottom: auto;
+    right: 20px;
+}
+
+.header {
+    max-width: 100%;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #9fbfdf;
+}
+
+.nav {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+/* index styling */
+
+#offer {
+    width: 48%;
+    float: left;
+    border: solid 2px;
+}
+
+#contact {
+    width: 48%;
+    float: right;
+    border: solid 2px;
+}
+
+/* bait styling*/
